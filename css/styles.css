@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(3, 73, 114)50%, rgb(99, 14, 197));
+}
+
+#lorem-external{
+    color: gold;
+}
+
+p.c-lorem{
+    color:aqua;
+}
+
+p.c-text-mask{
+    color: white;
+    mix-blend-mode: multiply;
+    background-color: rgb(59, 2, 6);
+}
+
+div.c-central-box{
+    border: 2px solid rgba(255, 255, 255, 0.123);
+    border-radius: 18px;
+    border-spacing: 10px;
+    padding: 5px;
+    position: relative;
+
+    width: 30%;
+    height: 60%;
+    top: 20%;
+    left: 20%
+
+}
+
+div.c-sides{
+    background-color: rgba(97, 97, 97, 0.322);
+    width: 80%;
+    height: 20%;
+    border-radius: 18px;
+    border-spacing: 10px;
+    padding: 5px;
+    position: relative;
+    word-wrap:normal;
+    
+}
+
+div.c-left{
+    text-align: left;
+    float: left;
+    clear: left;
+}
+
+div.c-right{
+    text-align: right;
+    float: right;
+    clear: right;
+}
+
+div.c-center{
+    text-align: center;
+}
+
+div.c-dark-boxes{
+    background-color: black;
+    border-radius: 18px;
+    border-spacing: 10px;
+
+    display: flex;
+    justify-content: :space-between;
+    flex: auto;
+}
+
+div.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
